@@ -6,11 +6,11 @@ toolchain go1.22.2
 
 require (
 	buf.build/gen/go/cedana/criu/protocolbuffers/go v1.35.2-20241120213244-d99a43b0c85e.1
-	buf.build/gen/go/cedana/gpu/grpc/go v1.5.1-00000000000000-57447335102c.2
-	buf.build/gen/go/cedana/gpu/protocolbuffers/go v1.36.1-00000000000000-57447335102c.1
+	buf.build/gen/go/cedana/gpu/grpc/go v1.5.1-00000000000000-8f4bdef83f59.2
+	buf.build/gen/go/cedana/gpu/protocolbuffers/go v1.36.1-00000000000000-8f4bdef83f59.1
 	buf.build/gen/go/cedana/img-streamer/protocolbuffers/go v1.34.2-20241004172122-02bf93858080.2
-	buf.build/gen/go/cedana/task/grpc/go v1.5.1-00000000000000-ce8e33d4f6ee.2
-	buf.build/gen/go/cedana/task/protocolbuffers/go v1.36.1-00000000000000-ce8e33d4f6ee.1
+	buf.build/gen/go/cedana/task/grpc/go v1.5.1-00000000000000-e1cf57ed397a.2
+	buf.build/gen/go/cedana/task/protocolbuffers/go v1.36.1-00000000000000-e1cf57ed397a.1
 	cloud.google.com/go/pubsub v1.44.0
 	github.com/aws/aws-sdk-go-v2 v1.30.1
 	github.com/aws/aws-sdk-go-v2/config v1.27.24
@@ -33,6 +33,7 @@ require (
 	github.com/cyphar/filepath-securejoin v0.3.1
 	github.com/docker/docker v27.2.0+incompatible
 	github.com/godbus/dbus/v5 v5.1.1-0.20230522191255-76236955d466
+	github.com/golang/protobuf v1.5.4
 	github.com/json-iterator/go v1.1.12
 	github.com/mattn/go-sqlite3 v1.14.22
 	github.com/mdlayher/vsock v1.2.1
@@ -143,7 +144,6 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/mock v1.6.0 // indirect
-	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/go-containerregistry v0.20.0 // indirect
 	github.com/google/go-intervals v0.0.2 // indirect
